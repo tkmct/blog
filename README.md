@@ -11,6 +11,8 @@ Quickly get started using the Gatsby blog theme! This starter creates a new Gats
 
 ## 🚀 Quick start
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tkmct/blog.svg)](https://greenkeeper.io/)
+
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the blog theme starter.
