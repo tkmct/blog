@@ -1,0 +1,15 @@
+---
+title: DeFi strategy
+date: 2021-2-7
+---
+
+# Terminology
+
+## インパーマネントロス (impermanent loss) 変動損失
+
+AMM に対して Liquidity provider が流動性提供しているトークンの価格が Deposit した時点から変動したときの損失。
+
+アリスが 1ETH(= $100), 100 DAI の合計$200 分を流動性提供しているプールを考える。プールの合計は 1000DAI, 10ETH とする(プールの合計価格$2,000)。 このとき、1ETH の価格が$400 に上がったら、Arbitrager はプールに DAI を追加し、ETH を取り除き、1ETH = $400 の均衡点に近づけようとする。5ETH, 2,000DAI がプールにある状態となったとする(プールの合計価格$4,000)。
+アリスは資金を出金するとき、プールのうち 0.5ETH, 200DAI ($400)を保持しているが(プールの 10%のシェア)、これは、1ETH, 100DAI をそのまま保持していた場合より($500)も価格が低くなってしまう。この損失を inpermanent loss という。
+
+#[Reference](https://academy.binance.com/ja/articles/impermanent-loss-explained)

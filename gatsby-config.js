@@ -7,7 +7,7 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `I code`,
+    title: `Daily reading`,
     author: `Takamichi Tsutsumi`,
     description: `Programmer`,
     social: [

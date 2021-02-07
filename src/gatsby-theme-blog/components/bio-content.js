@@ -6,8 +6,7 @@ import React, { Fragment } from "react"
 
 export default () => (
   <Fragment>
-    Takamichi Tsutsumi
-    <br />
-    Software Engineer
+    <div>Takamichi Tsutsumi</div>
+    <small>Software Engineer</small>
   </Fragment>
 )
